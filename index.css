@@ -1,0 +1,33 @@
+body{
+	max-width: 500px;
+	margin: auto;
+	
+}
+#answer{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+#answer div{
+	cursor : pointer;
+	color: #ffffff;
+	margin: 10px;
+	background: #665769;
+	padding: 10px;
+	border-radius: 10px;
+}
+#question{
+	font-size: 25px;
+	color: #111111;
+	font-weight: 600;
+}
+#answer div:hover{
+	background-color: #ffffff;
+	color:#111111;
+}
+.correct{
+	background: green !important;
+
+}
+.incorrect{
+	background: #ff0000 !important;
+}
